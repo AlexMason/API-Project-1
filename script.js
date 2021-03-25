@@ -45,8 +45,6 @@ function renderRaceData(data) {
 }
 
 async function runApp() {
-  console.log(await getRaceDataForYear(2011));
-  console.log(await getRaceDataForYear(2012));
   renderRaceData(await getRaceDataForYear(2021));
 }
 
