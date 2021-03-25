@@ -1,6 +1,6 @@
 //API Docs: http://ergast.com/mrd/
 
-const apiURL = "http://ergast.com/api/f1";
+const apiURL = "https://ergast.com/api/f1";
 const raceTableBody = document.getElementById("raceTableBody");
 
 async function getRaceDataForYear(year) {
